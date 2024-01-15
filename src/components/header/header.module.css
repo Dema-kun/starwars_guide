@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: "Starjedi";
+    src: url("/src/assets/fonts/Starjedi.ttf");
+}
+
+@font-face {
+    font-family: "Typo";
+    src: url("/src/assets/fonts/Typo Grotesk Demo.otf");
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.logo {
+    display: flex;
+    font-family: 'Starjedi';
+    color: yellow;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    font-family: "Typo";
+    color: white;
+    font-size: 35px;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 5px;
+}
