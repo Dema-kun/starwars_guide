@@ -1,9 +1,16 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-const MenuItem = (img) => {
+const MenuItem = (props) => {
+
+    const IMG_URL = `https://starwars-visualguide.com/assets/img/categories/${props.name}.jpg`;
+
     return (
         <div className="menu__item">
-            <img src={''} alt={"Hello"}/>
+            <Link to={`/${props.name}`}>
+                <img src={IMG_URL} width={300} height={150} alt="Menu Item"/>
+                <div className="menu__text">{props.name}</div>
+            </Link>
         </div>
     );
 };
