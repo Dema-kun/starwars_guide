@@ -1,9 +1,13 @@
 import React from 'react';
+import ItemList from "../components/ItemList";
+import NavBar from "../components/navbar/NavBar";
 
 const Planets = () => {
     return (
         <div className="character__h1">
-            <h1>Planets</h1>
+            <div>
+                <ItemList categories="planets"/>
+            </div>
         </div>
     );
 };
