@@ -75,11 +75,11 @@ body {
 .modal__item {
     display: flex;
     flex-direction: row;
-    height: 300px;
 }
 
 .modal__text {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    width: 600px;
 }
